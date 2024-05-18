@@ -9,8 +9,8 @@ package com.mycompany.persona;
  * @author felix
  */
 public class person {
-    public String name;
-    public int age=0;
+    String name;
+    int age;
     
     
     public person(String name, int age){
@@ -18,7 +18,7 @@ public class person {
         this.age=age;        
     }
 
-    public void saludar(){
+    public void Saludar(){
         System.out.println("Holaaa soy "+this.name);
     }
 }

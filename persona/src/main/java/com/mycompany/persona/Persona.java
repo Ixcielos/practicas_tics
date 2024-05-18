@@ -1,6 +1,7 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
+
 package com.mycompany.persona;
 
 /**
@@ -10,7 +11,8 @@ package com.mycompany.persona;
 public class Persona {
 
     public static void main(String[] args) {
-        person person1 = new person("Luis", 32);
-        person1.saludar();
+        person persona1 = new person("Luis", 32);
+        persona1.Saludar();
+
     }
 }
