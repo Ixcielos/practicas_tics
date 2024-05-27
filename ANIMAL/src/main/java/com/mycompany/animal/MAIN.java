@@ -14,12 +14,12 @@ public class MAIN {
     public static void main (String[] args){
         Scanner sc=new Scanner(System.in);
         //primera instancia
-        Animal A1 = new Animal("perro",14,"ladra");
+        Animal A1 = new Animal("perro",14,"ladrando");
         A1.comer();
         A1.dormir();
         A1.hacersonido();
         //segunda instancia
-        Animal A2 = new Animal("gato",4,"aulla");
+        Animal A2 = new Animal("gato",4,"aullando");
         A2.comer();
         A2.dormir();
         A2.hacersonido();

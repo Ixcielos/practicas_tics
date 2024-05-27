@@ -38,7 +38,7 @@ La clase debe tener los siguientes métodos:
     }
     
     public void hacersonido(){
-        System.out.println(nombre+" hace un "+tipo);
+        System.out.println(nombre+" hace esta "+tipo);
     } 
     
 }
