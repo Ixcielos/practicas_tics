@@ -30,15 +30,15 @@ La clase debe tener los siguientes métodos:
     }
     
     public void comer(){
-        System.out.println("El animal se encuentra comiendo");
+        System.out.println(nombre+" se encuentra comiendo");
     }
     
     public void dormir(){
-        System.out.println("El animal se encuentra durmiendo");
+        System.out.println(nombre+" se encuentra durmiendo");
     }
     
     public void hacersonido(){
-        System.out.println("El a nimal se encuentra haciendo un sonido");
+        System.out.println(nombre+" hace un "+tipo);
     } 
     
 }
