@@ -9,26 +9,19 @@ package com.mycompany.animal;
  * @author felix
  */
 public class Animal {
+    //atributos
     public  String nombre;
     public int edad;
     public String tipo;
     
-    /*Crea una clase llamada Animal con los siguientes atributos públicos:
-•	+nombre (tipo String)
-•	+edad (tipo int)
-•	+Tipo (tipo String)
-La clase debe tener los siguientes métodos:
-•	+comer(): que imprima un mensaje indicando que el animal está comiendo.
-•	+dormir(): que imprima un mensaje indicando que el animal está durmiendo.
-•	+hacerSonido(): que imprima un mensaje indicando el sonido que hace el animal.
-*/
-
+    //constructor
     public Animal(String nombre, int edad, String tipo) {
         this.nombre = nombre;
         this.edad = edad;
         this.tipo = tipo;
     }
     
+    //metodos
     public void comer(){
         System.out.println(nombre+" se encuentra comiendo");
     }
@@ -40,5 +33,4 @@ La clase debe tener los siguientes métodos:
     public void hacersonido(){
         System.out.println(nombre+" hace esta "+tipo);
     } 
-    
 }

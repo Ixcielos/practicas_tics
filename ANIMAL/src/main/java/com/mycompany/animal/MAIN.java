@@ -8,11 +8,9 @@ package com.mycompany.animal;
  *
  * @author felix
  */
-import java.util.Scanner;
 
 public class MAIN {
     public static void main (String[] args){
-        Scanner sc=new Scanner(System.in);
         //primera instancia
         Animal A1 = new Animal("perro",14,"ladrando");
         A1.comer();
