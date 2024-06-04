@@ -14,8 +14,9 @@ public class main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
         estudiante p1=new estudiante ("ordinaria","tics","FELIX",31);
+        
         p1.presentarse();
         p1.estudiar();
                 

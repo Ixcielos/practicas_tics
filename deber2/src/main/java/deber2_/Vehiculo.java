@@ -9,12 +9,7 @@ package deber2_;
  * @author felix
  */
 public class Vehiculo {
-    /*Crea una clase base llamada Vehiculo con los siguientes atributos públicos:
-•	marca (tipo String)
-•	modelo (tipo String)
 
-La clase Vehiculo debe tener los siguientes métodos:
-•	detalles(): que imprima un mensaje con la marca y el modelo del vehículo.*/
     public String marca;
     public String modelo;
 
