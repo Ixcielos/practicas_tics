@@ -33,7 +33,6 @@ La clase Estudiante debe tener los siguientes métodos:
     }
     
     public void estudiar(){
-        presentarse();
         System.out.println(nombre+" esta estudiando");
     }
 }

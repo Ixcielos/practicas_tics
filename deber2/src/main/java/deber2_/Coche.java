@@ -25,7 +25,6 @@ public class Coche extends Vehiculo{
     }
     
     public void mostrarDetalles(){
-        detalles();
         System.out.println(marca+" modelo "+modelo+" puertas "+numPuertas);
     }
     
